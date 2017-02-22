@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGLib", "RPGLib\RPGLib.csproj", "{C127E647-55A1-4DB5-AC1F-FEA0C632CF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgUI", "RpgUI\RpgUI.csproj", "{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGUI", "RpgUI\RPGUI.csproj", "{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGTests", "RPGTests\RPGTests.csproj", "{2349D258-FC30-44CE-8C12-6A69A7B24FBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2349D258-FC30-44CE-8C12-6A69A7B24FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2349D258-FC30-44CE-8C12-6A69A7B24FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2349D258-FC30-44CE-8C12-6A69A7B24FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2349D258-FC30-44CE-8C12-6A69A7B24FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

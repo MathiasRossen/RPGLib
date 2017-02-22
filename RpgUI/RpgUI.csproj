@@ -7,8 +7,8 @@
     <ProjectGuid>{8D415036-7213-4A5C-A7C9-5DBFB1BDB7CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RpgUI</RootNamespace>
-    <AssemblyName>RpgUI</AssemblyName>
+    <RootNamespace>RPGUI</RootNamespace>
+    <AssemblyName>RPGUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Fields.cs" />
+    <Compile Include="Areas\TownVille.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\RPGLib\RPGLib.csproj">
+      <Project>{c127e647-55a1-4db5-ac1f-fea0c632cf3b}</Project>
+      <Name>RPGLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -40,9 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battle.cs" />
+    <Compile Include="Enemies\Goblin.cs" />
+    <Compile Include="IArea.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="IShop.cs" />
+    <Compile Include="ISlecialization.cs" />
     <Compile Include="ICreature.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
