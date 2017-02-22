@@ -8,7 +8,7 @@ namespace RPGLib
 {
     public class Battle
     {
-        public List<ICreature> creaturesInBattle;
+        List<ICreature> creaturesInBattle;
 
         public Battle(Player player)
         {
